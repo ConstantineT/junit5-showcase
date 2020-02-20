@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class _1_1_Annotations {
 
-    public ComputationService computationService;
+    private ComputationService computationService;
 
     @BeforeAll // 1
     public static void beforeAll() {

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class _1_3_Assumptions {
 
-    public ComputationService computationService;
+    private ComputationService computationService;
 
     @BeforeEach
     public void beforeEach() {

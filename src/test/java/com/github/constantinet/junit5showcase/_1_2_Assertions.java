@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class _1_2_Assertions {
 
-    public ComputationService computationService;
+    private ComputationService computationService;
 
     @BeforeEach
     public void beforeEach() {

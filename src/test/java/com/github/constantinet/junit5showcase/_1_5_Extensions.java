@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.extension.ConditionEvaluationResult.enabled;
         IgnoreArithmeticExceptionExtension.class})
 public class _1_5_Extensions {
 
-    public ComputationService computationService;
+    private ComputationService computationService;
 
     @BeforeEach
     public void beforeEach() {

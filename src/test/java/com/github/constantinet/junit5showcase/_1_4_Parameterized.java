@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class _1_4_Parameterized {
 
-    public ComputationService computationService;
+    private ComputationService computationService;
 
     @BeforeEach
     public void beforeEach() {
