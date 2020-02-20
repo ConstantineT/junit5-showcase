@@ -66,7 +66,8 @@ public class _1_2_Assertions {
         final Executable executable = () -> computationService.filterOutOddNumbers(input);
 
         // then
-        assertThrows(NullPointerException.class, executable);
+        final Exception exception = assertThrows(NullPointerException.class, executable);
+        assertEquals("numbers array can not be null", exception.getMessage());
     }
 
     @Test
